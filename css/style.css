@@ -1,0 +1,210 @@
+*{
+    
+}
+
+.header{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+
+.layer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+.home{
+    color: white;
+
+}
+.home p{
+    font-size: 20px;
+}
+.home h1{
+    font-size: 65px;
+}
+
+.textContain{
+    left: 35%;
+    top:35%
+    
+}
+.sideBar{
+    position: fixed;
+    z-index: 9999999;
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 200px;
+    /* position: relative; */
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+ul{
+    padding-top:10px ;
+}
+ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue !important;
+    transition: all 1s;
+}
+
+ul li:hover {
+    color: #dc3545;
+    transform: translateY(7px);
+    transition: .5s;
+}
+ul li a:hover{
+    color: #dc3545 !important;
+}
+.fa-xmark{
+    position:absolute;
+    left: 80%;
+    
+}
+
+.IconBarOpen{
+    position: absolute;
+    left: 205px;
+    color:white;
+    font-size: 50px;
+    top: 30%;
+}
+.sliderDown{
+    width: 50%;
+    margin: 100px auto;
+    cursor: pointer;
+}
+
+h3{
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.sliderDown div {
+    padding: 10px;
+    background-color: #ccc;
+    display:none;
+}
+
+
+
+
+
+#count {
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+}
+
+
+
+.count-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+}
+
+
+.tim {
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+
+.social-list i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 1s;
+    font-size: 25px;
+    color: #999;
+}
+
+.social-list i:hover{
+    background-color: #dc3545;
+    color: white;
+
+}
+
+textarea{
+    height: 200px;
+}
+/* input{
+    border: none;
+    outline: none;
+} */
+
+input:focus,
+textarea:focus{
+   outline: #dc3545 solid;
+  
+}
+
+
+#chars{
+    color: #dc3545;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form button{
+    width: fit-content;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h1 ,h3{
+        font-size: 25px !important;
+
+        
+    }
+    .home p{
+font-size: 15px;
+    }
+    .sliderDown{
+        width: 80%;
+    }
+
+    #count{
+        height: 850px;
+        
+
+    }
+    #count .row{
+        margin-top: 0;
+
+    }
+    .sideBar{
+    
+    }
+}
